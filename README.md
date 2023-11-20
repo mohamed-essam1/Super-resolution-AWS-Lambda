@@ -96,7 +96,7 @@ Remember to secure your API Gateway using authentication and authorization mecha
 Make a POST request to the API endpoint with a base64-encoded low-resolution image:
 
 ```bash
-curl -X POST -H "Content-Type: application/json" -d '{"image": "base64_encoded_image"}' https://your-api-endpoint.execute-api.region.amazonaws.com/dev/super-resolution
+curl -X POST -H "Content-Type: application/json" -d '{"image": "base64_encoded_image"}' https://qywfdj2vce.execute-api.eu-north-1.amazonaws.com/SR_docker_lambda
 ```
 
 Replace `base64_encoded_image` with the base64 encoding of the low-resolution image, and `your-api-endpoint` and `region` with the corresponding values from the deployment.
